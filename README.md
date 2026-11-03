@@ -18,7 +18,7 @@ python -m pip install torch==2.5.1 torchvision==0.20.1 --index-url https://downl
 python -m pip install -r requirements_kodak.txt
 ```
 
-### Token Query Experiment
+### Token Erasure Experiment
 
 ```powershell
 conda create -n core-token-query python=3.9 -y
@@ -43,7 +43,7 @@ conda activate core-kodak
 python run_test.py r025 --dataset Kodak --kodak-root "KODAK_DIRECTORY" --channels rayleigh --retransmissions 3 --device cuda --output "results/kodak_rayleigh"
 ```
 
-## Token Query Experiment
+## Token Erasure Experiment
 
 ```powershell
 conda activate core-token-query
