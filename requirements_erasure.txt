@@ -1,0 +1,11 @@
+# Install the CUDA PyTorch wheels using README.txt first.
+torch==1.13.0
+torchvision==0.14.0
+numpy==1.24.4
+Pillow==9.2.0
+lpips==0.1.4
+pytorch-msssim==1.0.0
+einops==0.6.1
+timm==0.6.13
+scipy==1.11.3
+tqdm==4.70.0
